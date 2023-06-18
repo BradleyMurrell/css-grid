@@ -1,0 +1,14 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "css grid",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+  },
+  "author": "Brad",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
