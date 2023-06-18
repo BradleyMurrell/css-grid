@@ -1,6 +1,9 @@
 .container {
   width: 1000px;
-  margin: 30px auto; }
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 100px 200px 400px 100px;
+  grid-template-columns: repeat(3, 1fr) 200px; }
   .container > * {
     background-color: orangered;
     padding: 20px;
